@@ -95,9 +95,9 @@ analytics:
 author:
   name             : # "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computational protein scientist\n
-                      Stealth systems biologist\n
-                      Aspiring synthetic biologist"
+  bio              : "Computational protein scientist"
+                       # Stealth systems biologist
+                       # Aspiring synthetic biologist
   location         : # "Somewhere"
   email            :
   links:
