@@ -16,8 +16,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Roman Sloutsky" # Using name as cita title for now
-title_separator          : "-"
+title                    : # No title
+title_separator          : # "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : # "Your Name"
 description              : # "An amazing website."
@@ -93,8 +93,8 @@ analytics:
 
 # Site Author
 author:
-  name             : # "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Roman Sloutsky"
+  avatar           : "/assets/images/Sloutsky_photo.jpg"
   bio              : "Computational protein scientist"
                        # Stealth systems biologist
                        # Aspiring synthetic biologist
