@@ -14,9 +14,9 @@
   padding-right: 1em;
   font-family: $sans-serif;
   -webkit-animation: $intro-transition;
-  animation: $intro-transition;
+          animation: $intro-transition;
   -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+          animation-delay: 0.3s;
 
   @include breakpoint($x-large) {
     max-width: $x-large;
@@ -196,6 +196,8 @@
 
     &.site-title {
       margin-left: 0;
+      /* If I put the animated underlining code from below here, the effect
+         happens across the whole width of the navigation bar. */
     }
   }
 
@@ -230,6 +232,7 @@
     a {
       position: relative;
 
+//    From here ...
       &:before {
         content: "";
         position: absolute;
@@ -249,6 +252,7 @@
         -ms-transform: scaleX(1);
         transform: scaleX(1); // reveal
       }
+//    ... to here is responsible for animated-underline-of-links-on-hover in navigation bar
     }
   }
 

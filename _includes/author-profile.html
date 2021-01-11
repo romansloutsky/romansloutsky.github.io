@@ -246,6 +246,22 @@
         </li>
       {% endif %}
 
+      {% if author.googlescholar %}
+        <li>
+          <a href="{{ author.googlescholar }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="ai ai-google-scholar ai-fw" aria-hidden="true"></i><span class="label">Google Scholar</span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.orcid %}
+        <li>
+          <a href="http://orcid.org/{{ author.orcid }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="ai ai-orcid ai-fw" aria-hidden="true"></i><span class="label">ORCID</span>
+          </a>
+        </li>
+      {% endif %}
+
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
